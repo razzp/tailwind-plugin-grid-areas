@@ -1,0 +1,31 @@
+{
+  "name": "tailwind-plugin-grid-areas",
+  "author": "Robert Wells",
+  "version": "1.0.0",
+  "description": "A Tailwind CSS plugin to add some basic grid-area support",
+  "license": "MIT",
+  "keywords": [
+    "tailwind",
+    "plugin",
+    "grid",
+    "area"
+  ],
+  "homepage": "https://github.com/razzp/tailwind-plugin-grid-areas#readme",
+  "repository": "github:razzp/tailwind-plugin-grid-areas",
+  "main": "main.js",
+  "scripts": {
+    "prettier": "prettier --write main.js",
+    "prepublishOnly": "npm run prettier"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 4
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=3.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.8"
+  }
+}
