@@ -1,4 +1,4 @@
-# tailwind-plugin-grid-area
+# tailwind-plugin-grid-areas
 
 A Tailwind CSS plugin to add some basic grid-area support.
 
@@ -30,7 +30,7 @@ module.exports = {
 | Class                           | Properties         |
 | ------------------------------- | ------------------ |
 | `area-1`                        | `grid-area: 1 / 1` |
-| `area-a`, `area-b`, ...`area-z` | `grid-area: [a-z]` |
+| `area-a`, `area-b`, ... `area-z` | `grid-area: [a-z]` |
 
 ## Arbitrary values
 
