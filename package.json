@@ -6,9 +6,11 @@
   "license": "MIT",
   "keywords": [
     "tailwind",
+    "tailwindcss",
     "plugin",
-    "grid",
-    "area"
+    "css",
+    "css grid",
+    "css grid area"
   ],
   "homepage": "https://github.com/razzp/tailwind-plugin-grid-areas#readme",
   "repository": "github:razzp/tailwind-plugin-grid-areas",
