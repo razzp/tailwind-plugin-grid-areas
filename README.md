@@ -27,9 +27,9 @@ module.exports = {
 
 ## Basic usage
 
-| Class                           | Properties         |
-| ------------------------------- | ------------------ |
-| `area-1`                        | `grid-area: 1 / 1` |
+| Class                            | Properties         |
+| -------------------------------- | ------------------ |
+| `area-1`                         | `grid-area: 1 / 1` |
 | `area-a`, `area-b`, ... `area-z` | `grid-area: [a-z]` |
 
 ## Arbitrary values
