@@ -1,6 +1,4 @@
-const plugin = require('tailwindcss/plugin');
-
-module.exports = plugin(({ addUtilities, matchUtilities }) => {
+module.exports = ({ addUtilities, matchUtilities }) => {
     addUtilities({
         '.area-1': {
             'grid-area': '1 / 1',
@@ -21,4 +19,4 @@ module.exports = plugin(({ addUtilities, matchUtilities }) => {
     matchUtilities({
         area: (gridArea) => ({ gridArea }),
     });
-});
+};
