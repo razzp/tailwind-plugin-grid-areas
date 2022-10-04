@@ -19,7 +19,7 @@ module.exports = {
         // ...
     },
     plugins: [
-        require('tailwind-plugin-grid-area'),
+        require('tailwind-plugin-grid-areas'),
         // ...
     ],
 }
